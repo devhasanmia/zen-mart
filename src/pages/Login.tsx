@@ -1,11 +1,11 @@
 import { FiLogIn } from "react-icons/fi";
-import ZmInput from "../components/ZmInput";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { TUserLogin } from "../types/login.type";
 import { toast } from "sonner";
 import ZmButton from "../components/ui/ZmButton";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { loginValidationSchema } from "../validations/login.validation";
+import ZmInput from "@/components/ui/ZmInput";
 
 const Login = () => {
   const {

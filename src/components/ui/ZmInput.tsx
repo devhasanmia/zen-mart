@@ -1,7 +1,7 @@
 import { UseFormRegisterReturn } from "react-hook-form";
 
 interface ZmInputProps {
-  label: string;
+  label?: string;
   type?: string;
   classes?: string;
   placeholder?: string;
